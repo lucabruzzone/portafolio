@@ -1,0 +1,89 @@
+
+.mainContainer{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: all .8s;
+}
+
+.leftSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rightSection{
+    /* flex-grow: 1; */
+    /* max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.webCards{
+    height: 50%;
+    transition: all .8s;
+}
+
+
+
+
+
+/* SELECTORS POINTS */
+
+.selectorBar{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.selectorBarDiv{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.489);
+    border-radius: 2000px;
+    cursor: pointer;
+}
+.selectorBarDiv:hover{
+    background-color: rgb(196, 196, 196);
+    box-shadow: none;
+}
+.press{
+    height: 15px;
+    width: 15px;
+    background-color: #454545;
+    box-shadow: none;
+    border-radius: 2000px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+
+
+
+
+
+/* CAMBIO DE BACKGROUND */
+
+#boome{
+    background-color: #eaa25a;
+    transition: all .8s;
+}
+#roomie{
+    background-color:  #289afe;
+    transition: all .8s;
+}
+#miconsulta{
+    background-color: var(--bgc-home);
+    transition: all .8s;
+}
+#rym{
+    background-color: #da5743;
+    transition: all .8s;
+}

@@ -1,0 +1,170 @@
+:root {
+    --bgc-home: #43c9c0;
+    --shadow-color: 172deg 57% 29%;
+    --shadow-elevation-low:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+    --shadow-elevation-high:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
+
+    /* ------------ */
+
+    --shadow-color2: 209deg 100% 25%;
+    --shadow-elevation-low2:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color2) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color2) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color2) / 0.34);
+    --shadow-elevation-medium2:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color2) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color2) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color2) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color2) / 0.36);
+    --shadow-elevation-high2:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color2) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color2) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color2) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color2) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color2) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color2) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color2) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color2) / 0.34);
+
+    /* ----------- */
+
+    --shadow-color3: 30deg 53% 34%;
+    --shadow-elevation-low3:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color3) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color3) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color3) / 0.34);
+    --shadow-elevation-medium3:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color3) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color3) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color3) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color3) / 0.36);
+    --shadow-elevation-high3:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color3) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color3) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color3) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color3) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color3) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color3) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color3) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color3) / 0.34);
+
+    /* ----------- */
+
+    --shadow-color4: 0deg 62% 23%;
+    --shadow-elevation-low4:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color4) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color4) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color4) / 0.34);
+    --shadow-elevation-medium4:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color4) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color4) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color4) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color4) / 0.36);
+    --shadow-elevation-high4:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color4) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color4) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color4) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color4) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color4) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color4) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color4) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color4) / 0.34);
+}
+.mainDiv{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+/* .mainDiv:hover{
+    scale: 1.01;
+    transition: .4s;
+} */
+
+.imagen1{
+    position: relative;
+    width: 340px;
+    height: 178px;
+    border-radius: 8px;
+    top: 80px;
+    right: 90px;
+    transition: all .8s;
+}
+
+.imagen2{
+    position: relative;
+    width: 340px;
+    height: 178px;
+    border-radius: 8px;
+    bottom: -40px;
+    left: -30px;
+    transition: all .8s;
+}
+
+.imagen3{
+    position: relative;
+    width: 82px;
+    height: 146px;
+    border-radius: 8px;
+    bottom: -10px;
+    right: -60px;
+    transition: all .8s;
+}
+
+.imagen4{
+    position: relative;
+    width: 82px;
+    height: 146px;
+    border-radius: 8px;
+    bottom: 190px;
+    right: -130px;
+    transition: all .8s;
+}
+
+img:hover{
+    scale: 1.05;
+    transition: all .8s;
+}
+
+
+
+
+
+
+/* SOMBRAS */
+
+#boome{
+    box-shadow: var(--shadow-elevation-medium3);
+    transition: all .8s;
+}
+#roomie{
+    box-shadow: var(--shadow-elevation-medium2);
+    transition: all .8s;
+}
+#miconsulta{
+    box-shadow: var(--shadow-elevation-medium);
+    transition: all .8s;
+}
+#rym{
+    box-shadow: var(--shadow-elevation-medium4);
+    transition: all .8s;
+}
